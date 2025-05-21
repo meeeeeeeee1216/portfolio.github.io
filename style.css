@@ -48,7 +48,6 @@ img {
 	width: 640px;
 	margin: 0;
 	padding: 10px 20px;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 aside {
 	padding: 20px;
@@ -108,8 +107,6 @@ aside {
 }
 .header-inner {
 	font-size: 10px;
-	background-color: slateblue;
-	font-family: 'MS Pゴシック'
 }
 h1 {
 	font-size: 20px;
