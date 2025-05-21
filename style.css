@@ -18,18 +18,13 @@ header {
 .header-inner {
 	padding: 0;
 	font-size: 12px;
+	background-color: slateblue;
+	font-family: 'MS Pゴシック'
 }
 h1 {
 	font-size: 24px;
 	margin: 0;
 	padding: 0;
-}
-h1 a {
-	color: #000;
-	text-decoration: none;
-}
-h1 a:hover {
-	text-decoration: underline;
 }
 h2 {
 	font-size: 22px;
@@ -37,32 +32,16 @@ h2 {
 	padding: 10px;
 	background-color: #D6E7EE;
 }
-h2 a {
-	text-decoration: none;
-	color: #265699;
-}
 p {
 	margin: 1em 0;
-}
-.aka {
-	color: #B0231D;
-	font-weight: bold;
 }
 img {
 	max-width: 100%;
 	height: auto;
 	border: 0;
 }
-a {
-	color: #094a94;
-}
 #content {
 	padding: 0 20px;
-}
-#content::after {
-	content: "";
-	display: table;
-	clear: both;
 }
 .inner {
 	float: right;
@@ -74,9 +53,9 @@ a {
 aside {
 	padding: 20px;
 	color: #676767;
-	width: 220px;
+	width: 200px;
 	float: left;
-	background-color: #f8f8f8;
+	background-color: #D6E7EE;
 }
 .left-title {
 	padding: 10px;
@@ -87,13 +66,7 @@ aside {
 	margin: 0;
 	padding: 0 0 10px 0;
 }
-.link a {
-	color: #094a94;
-	text-decoration: none;
-}
-.link a:hover {
-	text-decoration: underline;
-}
+
 ul {
 	margin: 0 0 0 1em;
 	padding: 0;
@@ -104,17 +77,15 @@ ul {
 }
 footer {
 	text-align: center;
-	color: #666;
+	color: #414141;
 	font-size: 15px;
 	height: 100px;
 	padding-top: 40px;
 	clear: both;
 }
-blockquote {
-	border: 1px solid #ccc;
-	padding: 5px;
-	margin: 10px;
-}
+
+
+
 @media (max-width: 768px) {
 #outer {
 	width: 100%;
@@ -137,6 +108,8 @@ aside {
 }
 .header-inner {
 	font-size: 10px;
+	background-color: slateblue;
+	font-family: 'MS Pゴシック'
 }
 h1 {
 	font-size: 20px;
