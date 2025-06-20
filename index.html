@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <meta charset="utf-8">
+        <meta name="robots" content="noindex" charset="utf-8">
         <title>Portfolio</title>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -14,11 +14,23 @@
                 </div>
             </header>
             <aside>
-                <div class="left-title">目次リンク</div>
+                <div class="left-title">目次</div>
                 <div class="link">
                     <ul>
-                    <li><a href="#profile">自己紹介</a></li>
-                    <li><a href="#product">制作物</a></li>
+                        <li><a href="#profile">自己紹介</a></li>
+                        <ol>
+                            <li><a href="#career">経歴</a></li>
+                            <li><a href="#skill">スキル概要</a></li>
+                            <li><a href="#health">傷病について</a></li>
+                        </ol>
+                        <li><a href="#product">制作物</a></li>
+                        <ol>
+                            <li><a href="#study">卒業研究</a></li>
+                            <li><a href="#block">ブロック崩し</a></li>
+                            <li><a href="#site">ポートフォリオサイト（このサイト）</a></li>
+                            <li><a href="#SSS">エンターテインメントショー出演者スケジュールシステム</a></li>
+                        </ol>
+
                     </ul>
                 </div> 
             </aside>
@@ -31,39 +43,44 @@
                         <p>趣味：ゲーム配信鑑賞、観劇、テーマパーク</p>
                         <p>出身：愛知県名古屋市</p>
 
-                        <h3>経歴</h3>
-                        <p>《2019年4月 ~ 2023年3月》法政大学情報科学部ディジタルメディア学科に在籍</p>
-                        <p>《2019年5月 ~ 2020年7月》株式会社オリエンタルランドにてアルバイトとしてグッズ販売業務に従事</p>
-                        <p style="text-indent: 20px">コロナの影響と学業へ専念するため退職</p>
-                        <p>《2021年8月 ~ 2022年11月》株式会社イー・トラックスにてアルバイトとしてパソコン教室インストラクター業務に従事</p>
-                        <p style="text-indent: 20px">就職のため退職</p>
-                        <p>《2022年10月 ~ 2023年3月》新卒で入社予定の株式会社リキッドに入社前研修アルバイトとして入社</p>
-                        <p>《2023年4月 ~ 2024年10月》株式会社リキッド入社、飲食店の運営業務に携わる。</p>
-                        <p style="text-indent: 20px">《2024年1月》呼吸器症状のため内科を受診、パニック障害を発症</p>
-                        <p style="text-indent: 20px">《2024年7月》症状悪化のため求職</p>
-                        <p style="text-indent: 20px">《2024年10月》休職期間満了につき退職</p>
-                        <p>《2024年11月 ~ 現在》就労移行支援manaby吉祥寺事業所に訓練通所</p>
-
-
-                        <h3>スキル概要</h3>
-                        <p>主な経験言語：Python, &emsp;JavaScript, &emsp;HTML/CSS</p>
-                        <p>※Java,&emsp;C++,&emsp; MATLABも若干の経験あり</p>
-                        <p>その他：VisualStudio,&emsp;GitHub</p>
-
-                        <h3>傷病について</h3>
-                        <p>傷病名：パニック障害</p>
-                        <ul>
-                            <li>人込みや満員電車などの圧迫感がある環境や不慣れな場所などにおいてパニック発作（吐き気・めまい・呼吸苦・頭痛など）が起こります。</li>
-                            <li>症状が強い場合において意識を失い、自ら移動することができなくなることがあります。</li>
-                            <li>発作への恐怖心から当該状況を回避するように行動を起こすことがあります。<br>
-                            (例：電車で体調不良を起こし途中で下車する, 混雑している街中を避けて生活する　など）</li>
-                        </ul>
-                        <h4>就労にあたってお願いしたいこと</h4>
-                        <ul>
-                            <li>電車に乗ることが苦手なため、可能な限り在宅での勤務を希望します</li>
-                            <li>治療のため少しずつ電車に乗ることを医師から指導されており、体調によって出社での勤務を選択することができるとうれしいです</li>
-                            <li>現状はラッシュ時を避け、最寄り駅から2,3駅程度の移動であれば日々継続して行うことができます</li>
-                        </ul>
+                        <div id="career">
+                            <h3>経歴</h3>
+                            <p>《2019年4月 ~ 2023年3月》法政大学情報科学部ディジタルメディア学科に在籍</p>
+                            <p>《2019年5月 ~ 2020年7月》株式会社オリエンタルランドにてアルバイトとしてグッズ販売業務に従事</p>
+                            <p style="text-indent: 20px">コロナの影響と学業へ専念するため退職</p>
+                            <p>《2021年8月 ~ 2022年11月》株式会社イー・トラックスにてアルバイトとしてパソコン教室インストラクター業務に従事</p>
+                            <p style="text-indent: 20px">就職のため退職</p>
+                            <p>《2022年10月 ~ 2023年3月》新卒で入社予定の株式会社リキッドに入社前研修アルバイトとして入社</p>
+                            <p>《2023年4月 ~ 2024年10月》株式会社リキッド入社、飲食店の運営業務に携わる。</p>
+                            <p style="text-indent: 20px">《2024年1月》呼吸器症状のため内科を受診、パニック障害を発症</p>
+                            <p style="text-indent: 20px">《2024年7月》症状悪化のため求職</p>
+                            <p style="text-indent: 20px">《2024年10月》休職期間満了につき退職</p>
+                            <p>《2024年11月 ~ 現在》就労移行支援manaby吉祥寺事業所に訓練通所</p>
+                        </div>
+                        
+                        <div id="skill">
+                            <h3>スキル概要</h3>
+                            <p>主な経験言語：Python, &emsp;JavaScript, &emsp;HTML/CSS</p>
+                            <p>※Java,&emsp;C++,&emsp; MATLABも若干の経験あり</p>
+                            <p>その他：VisualStudio,&emsp;GitHub</p>
+                        </div>
+                        
+                        <div id="health">
+                            <h3>傷病について</h3>
+                            <p>傷病名：パニック障害</p>
+                            <ul>
+                                <li>人込みや満員電車などの圧迫感がある環境や不慣れな場所などにおいてパニック発作（吐き気・めまい・呼吸苦・頭痛など）が起こります。</li>
+                                <li>症状が強い場合において意識を失い、自ら移動することができなくなることがあります。</li>
+                                <li>発作への恐怖心から当該状況を回避するように行動を起こすことがあります。<br>
+                                (例：電車で体調不良を起こし途中で下車する, 混雑している街中を避けて生活する　など）</li>
+                            </ul>
+                            <h4>就労にあたってお願いしたいこと</h4>
+                            <ul>
+                                <li>電車に乗ることが苦手なため、可能な限り在宅での勤務を希望します</li>
+                                <li>治療のため少しずつ電車に乗ることを医師から指導されており、体調によって出社での勤務を選択することができるとうれしいです</li>
+                                <li>現状はラッシュ時を避け、最寄り駅から2,3駅程度の移動であれば日々継続して行うことができます</li>
+                            </ul><br>
+                        </div>
                     </div>
                     <div id="product">
                         <h2>制作物</h2>
@@ -75,10 +92,23 @@
                                 演奏の習得を目的とした
                                 演奏支援システムおよびドメイン特化言語を開発。
                             </p>
-                            <a href="https://ipsj.ixsq.nii.ac.jp/record/230062/files/IPSJ-Z85-5T-05.pdf">
-                                抄録（pdfファイル）</a><br>
-                            <a href="https://www.ipsj.or.jp/event/taikai/85/ipsj_web2023/data/pdf/5T-05.html">
-                                概要（情報処理学会　第85回全国大会）</a>
+                            <h4>成果物</h4>
+                            <ul>
+                                <li>機能説明動画 <a href = "https://drive.google.com/file/d/1KsD5ji8tyXbB5anRjKU9JRRz01ntZ2dX/view?usp=drive_link">pdf版（GoogleDrive）</a>
+                                    <iframe width="560" height="315" 
+                                    src="https://www.youtube.com/embed/iG-y4ITSREo?si=5qMy6ZbxxdhiTXn7" 
+                                    title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+                                <li>最終発表スライド
+                                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQYtnwqNbYAzenSO3Gb6OtNJpQ9YBp8DAKwAbzh2wfn25qZ_nezAzg7L90fLfyPYA/pubembed?start=false&loop=true&delayms=3000" 
+                                    frameborder="0" width="640" height="389" allowfullscreen="true" 
+                                    mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></li>
+                                <li><a href="https://ipsj.ixsq.nii.ac.jp/record/230062/files/IPSJ-Z85-5T-05.pdf">
+                                抄録（pdfファイル）</a></li>
+                                <li><a href="https://www.ipsj.or.jp/event/taikai/85/ipsj_web2023/data/pdf/5T-05.html">
+                                概要（情報処理学会　第85回全国大会）</a></li>
+                            </ul>
                         </div>
                         <div id="block">
                             <h3>2.ブロック崩し</h3>
@@ -87,11 +117,30 @@
                             <a href="https://meeeeeeeee1216.github.io/block.github.io/">ここから遊べます</a>&emsp;
                             <a href="https://github.com/meeeeeeeee1216/block.github.io.git">GitHub</a>  
                         </div>
-                        <div id="block">
-                            <h3>3.ポートフォリオサイト</h3>
+                        <div id="site">
+                            <h3>3.ポートフォリオサイト（このサイト）</h3>
                             <h4>開発言語：JavaScript,HTML,CSS</h4>
                             <p>HTML/CSS/GitHubの練習のために作成</p>
                             <a href="https://github.com/meeeeeeeee1216/portfolio.github.io.git">GitHub</a>  
+                        </div>
+                        <div id="SSS">
+                            <h3>4.エンターテインメントショー出演者スケジュールシステム（製作途中）</h3>
+                            <h4>開発言語</h4>
+                                <ul>
+                                    <li>フロントエンド：JavaScript,HTML,CSS</li>
+                                    <li>バックエンド：JavaScript（Node.js,Express,MySQLなど）</li>
+                                </ul>
+                            <h4>概要</h4>
+                            <p>テーマパークにおけるエンターテインメントプログラム（ショーやパレードなど）について、
+                                出演している演者（エンターテイナー）の出演履歴を管理するＷＥＢアプリケーション</p>
+                            <h4>構想</h4>
+                            <p>某関西大手テーマパークのショーにおいて
+                                現在X（旧Twitter）上で運営されている「シフトアカウント」
+                                （各公演に対してどの演者がどの配役で出演したかをユーザーからの報告などから情報をまとめ、ポストするアカウント）
+                                が持つ機能をウェブ上で再現し、データをデータベースで管理することで検索効率の向上・出演予測作業の効率化
+                                をはかる
+                            </p>
+                            <a href="https://github.com/meeeeeeeee1216/ScheduleSystem">GitHub</a>  
                         </div>
                     </div>
                 </div>
